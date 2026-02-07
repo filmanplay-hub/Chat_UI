@@ -8,7 +8,7 @@ class RegisterWindow(CTk):
         self.user_name = None
        
         self.title('Підключення до чату')
-        self.geometry("300x360")
+        self.geometry("300x360")#Розмір екрану
 
 
         CTkLabel(self, text='Вхід в чат...',
@@ -244,3 +244,4 @@ class MainWindow(CTk):
 
 app = RegisterWindow()
 app.mainloop()
+
